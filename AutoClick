@@ -1,0 +1,9 @@
+while task.wait() do
+local Change1 = game:GetService("Players").LocalPlayer.PlayerGui.mainGui.settingsMenu.scrollMenu.autoClick.activeLabel
+local Change2 = game:GetService("Players").LocalPlayer.PlayerGui.mainGui.settingsMenu.scrollMenu.autoClick.nameLabel
+local Change3 = game:GetService("Players").LocalPlayer.PlayerGui.mainGui.settingsMenu.scrollMenu.autoClick
+
+Change1.Text = "Enabled"
+Change2.Text = "Auto Click(FREE)"
+Change3.ImageColor3 = Color3.new(0, 255, 0)
+end
